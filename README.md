@@ -21,7 +21,7 @@ Files:
 
           abandon   -2
           luck      3
-          solve      1
+          solve     1
       
       Each line in this file contains a word or phrase followed by a sentiment score. This file is used to compute the tweet sentiments in _tweet_sentiment.py_. 
 * _term_sentiment.py_:
