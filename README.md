@@ -19,9 +19,9 @@ Files:
 * _AFINN-111.txt_:
     * A list of words each assigned with a pre-computed sentiment score in the range from -5 to +5 which represents the sentiment strength of the words. The AFINN sentiment score was developed by Finn Årup Nielsen as a way to gauge the sentiment of text. Words with negative scores are considered negative, while those with positive scores are considered positive. Examples:
 
-          abandon  -2
-          luck	   3
-          solve	   1
+          abandon   -2
+          luck      3
+          solve      1
       
       Each line in this file contains a word or phrase followed by a sentiment score. This file is used to compute the tweet sentiments in _tweet_sentiment.py_. 
 * _term_sentiment.py_:
