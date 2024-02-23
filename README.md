@@ -18,9 +18,11 @@ Files:
     * A script that computes the sentiment of each tweet based on the sentiment scores of the terms in the tweet. The sentiment of a tweet is equivalent to the sum of the sentiment scores for each term in the tweet. Each word or phrase that is found in a tweet but not found in _AFINN-111.txt_ is given a sentiment score of 0.
 * _AFINN-111.txt_:
     * A list of words each assigned with a pre-computed sentiment score in the range from -5 to +5 which represents the sentiment strength of the words. The AFINN sentiment score was developed by Finn Årup Nielsen as a way to gauge the sentiment of text. Words with negative scores are considered negative, while those with positive scores are considered positive. Examples:
+
           * abandon  -2
           * luck	   3
           * solve	   1
+      
       Each line in this file contains a word or phrase followed by a sentiment score. This file is used to compute the tweet sentiments in _tweet_sentiment.py_. 
 * _term_sentiment.py_:
     * A script that computes the sentiment for the terms that do not appear in the file AFINN-111.txt.
