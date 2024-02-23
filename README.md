@@ -35,7 +35,7 @@ Files:
 
 * _frequency.py_:
     * A script that computes frequency histogram of the term. The frequency of a term is calculated as:
-      $$\frac{\text{Number of occurrences of the term in all tweets}}{\text{Number of occurrences of all terms in all tweets}}$$
+      $$\frac{\text{Number of occurrences of \textbf{the term} in all tweets}}{\text{Number of occurrences of \textbf{all terms} in all tweets}}$$
 
 * _happiest_state.py_:
     * A script that computes the happiest state. The script returns the two-letter state abbreviation of the state with the highest average tweet sentiment.
