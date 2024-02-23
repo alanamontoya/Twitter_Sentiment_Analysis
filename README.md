@@ -43,4 +43,4 @@ Files:
     * A script that computes the happiest state. The script returns the two-letter state abbreviation of the state with the highest average tweet sentiment.
 
 * _top_ten.py_:
-    * A script that computes the ten most frequently occurring hashtags in the downloaded tweets.
+    * A script that computes the ten most frequently occurring hashtags.
