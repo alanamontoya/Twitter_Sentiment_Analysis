@@ -16,8 +16,8 @@ For example, researchers have shown that the "mood" of communication on twitter 
 
 This project consisted of the following:  
 
-<br>
-  
+***
+
 #### _Files:_
 
 * _AFINN-111.txt_:
