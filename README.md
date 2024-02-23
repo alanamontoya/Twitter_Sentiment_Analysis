@@ -28,13 +28,13 @@ Files:
     * A script that computes the sentiment of each tweet based on the sentiment scores of the terms in the tweet. The sentiment of a tweet is equivalent to the sum of the sentiment scores for each term in the tweet. Each word or phrase that is found in a tweet but not found in _AFINN-111.txt_ is given a sentiment score of 0.
 
 * _term_sentiment.py_:
-    * A script that computes the sentiment for the terms that do not appear in the file AFINN-111.txt. The sentiment-carrying words in AFINN-111.txt can be used to deduce the overall sentiment of a tweet. Once the sentiment of a _tweet_ is deduced, the sentiment of the non-sentiment carrying _words_ that do not appear in AFINN-111.txt can then be deduced by working backwords. For example, if the word "soccer" always appears in proximity with positive words like "great" and "fun", then we can deduce that the term "soccer" itself carries a positive sentiment.
+    * A script that computes the sentiment for the terms in the tweets that do not appear in the file AFINN-111.txt. Once the sentiment of a _tweet_ is deduced (as done in _tweet_sentiment.py_), the sentiment of the non-sentiment carrying _words_ that do not appear in AFINN-111.txt can then be deduced by working backwords. For example, if the word "soccer" always appears in proximity with positive words like "great" and "fun", then it cane be deduced that the term "soccer" itself carries a positive sentiment.
 
 * _term_sentiment_output.txt_:
     * The output of _term_sentiment.py_. This is needed to run the _happiest_state.py_ file.
 
 * _frequency.py_:
-    * A script that computes the term frequency histogram of the livestream data harvested. The frequency of a term is calculated as [# of occurrences of the term in all tweets]/[# of occurrences of all terms in all tweets].
+    * A script that computes frequency histogram of the term. The frequency of a term is calculated as [# of occurrences of the term in all tweets]/[# of occurrences of all terms in all tweets].
 
 * _happiest_state.py_:
     * A script that computes the happiest state. The script returns the two-letter state abbreviation of the state with the highest average tweet sentiment.
