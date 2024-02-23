@@ -1,16 +1,22 @@
 # Twitter Sentiment Analysis
 
+### Summary
+
+*	Access Twitter’s Application Programming Interface (API) using python to download tweets (note: this was done when Twitter's API was still available).
+*	Estimate the public's perception (the sentiment) of particular terms or phrases.
+*	Analyze the relationship between location and mood from tweet sentiments.
+
+### Overview
+
 Twitter historically represented a fundamental instrument in making social measurements. Millions of people voluntarily express opinions across any topic imaginable --- this data source is incredibly valuable for both research and business.
 
 For example, researchers have shown that the "mood" of communication on twitter reflects biological rhythms and can even used to predict the stock market. A student at UW used geocoded tweets to plot a map of locations where "thunder" was mentioned in the context of a storm system in Summer 2012.
 
 This project consisted of the following:
 
-*	Access Twitter’s Application Programming Interface (API) using python to download tweets (note: this was done when Twitter's API was still available).
-*	Estimate the public's perception (the sentiment) of particular terms or phrases.
-*	Analyze the relationship between location and mood from tweet sentiments.
 
-Files:
+
+### _Files:_
 
 * _output_copy_3.txt_:
     * The processed Twitter data downloaded from the live Twitter stream using the development API.
