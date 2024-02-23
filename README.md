@@ -12,10 +12,6 @@ Twitter historically represented a fundamental instrument in making social measu
 
 For example, researchers have shown that the "mood" of communication on twitter reflects biological rhythms and can even used to predict the stock market. A student at UW used geocoded tweets to plot a map of locations where "thunder" was mentioned in the context of a storm system in Summer 2012.
 
-### Overview
-
-This project consisted of the following:  
-
 ***
 
 #### _Files:_
