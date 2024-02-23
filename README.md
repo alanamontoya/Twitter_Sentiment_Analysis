@@ -1,4 +1,4 @@
-# Twitter_Sentiment_Analysis
+# Twitter Sentiment Analysis
 
 Twitter historically represented a fundamental instrument in making social measurements. Millions of people voluntarily express opinions across any topic imaginable --- this data source is incredibly valuable for both research and business.
 
