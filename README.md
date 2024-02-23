@@ -1,11 +1,14 @@
 # Twitter_Sentiment_Analysis
 
-Summary:
+Twitter historically represented a fundamental instrument in making social measurements. Millions of people voluntarily express opinions across any topic imaginable --- this data source is incredibly valuable for both research and business.
 
-*	Accessed Twitter’s API to download tweets.
-*	Derived the sentiments (attitudes or perceptions) of tweets using Finn Arup Nielsen’s list of words rated for valence in python.
-*	Computed the sentiment of new terms that did NOT exist in Finn Arup Nielsen’s list of words rated for valence by computing the average sentiment scores of the tweets that contained the new words.
-*	Analyzed the relationship between location and mood from tweet sentiments.
+For example, researchers have shown that the "mood" of communication on twitter reflects biological rhythms and can even used to predict the stock market. A student at UW used geocoded tweets to plot a map of locations where "thunder" was mentioned in the context of a storm system in Summer 2012.
+
+This project consisted of the following:
+
+*	Access Twitter’s Application Programming Interface (API) using python to download tweets (note: this was done when Twitter's API was still available).
+*	Estimate the public's perception (the sentiment) of particular terms or phrases.
+*	Analyze the relationship between location and mood from tweet sentiments.
 
 Files:
 
