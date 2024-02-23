@@ -14,7 +14,7 @@ For example, researchers have shown that the "mood" of communication on twitter 
 
 ### Overview
 
-This project consisted of the following:
+This project consisted of the following:  
 
 
   
