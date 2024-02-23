@@ -16,10 +16,10 @@ string_output_text = []
 for line in json_output:
     # Check if tweet
     if "text" in line:
-        # Get the text of he tweet
+        # Get the text of the tweet
         tweet_text = line['text']
 
-        # Process the text (note: there some preprocessing of the output file done directly in the text editor prior to doing this)
+        # Process the text (note: there some preprocessing of the output file done directly in a text editor prior to doing this)
         tweet_text = re.sub(r'http\S+', '', tweet_text)
         tweet_text = re.sub("RT @\\w+", "", tweet_text)
         tweet_text = re.sub("@\\w+", " ", tweet_text)
