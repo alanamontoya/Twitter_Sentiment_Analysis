@@ -2,15 +2,29 @@
 
 ### Summary
 
+Twitter has historically served as a vital tool for making social measurements. Millions of individuals openly share their opinions on a wide array of subjects, making Twitter a rich resource for both research and business applications. For example, researchers have shown that the "mood" of communication on twitter [reflects biological rhythms](https://www.nytimes.com/2011/09/30/science/30twitter.html) and can even used to [predict the stock market](https://arxiv.org/pdf/1010.3003&embedded=true).
+
+This project leverages Twitter's API to delve into and analyze the vast data produced by users. We aim to perform sentiment analysis, examine the connections between tweet locations and moods, and identify prevailing trends in tweet content. The overarching goal is to harness Python and the Twitter API to extract meaningful insights from social media data, enhancing our understanding of digital communication patterns.
+
+### Objectives
+
+
 *	Access Twitter’s Application Programming Interface (API) using python to download tweets (note: this was done when Twitter's API was still available).
-*	Estimate the public's perception (the sentiment) of particular terms or phrases.
-*	Analyze the relationship between location and mood from tweet sentiments.
+*	Estimate the public's perception (the sentiment) toward specific terms or phrases found in tweets.
+*	Analyze how geographical locations relate to the mood conveyed in tweets.
+*	Explore other patterns in data such as term frequency and hashtag usage.
 
-### Background
+### Technologies Used
 
-Twitter historically represented a fundamental instrument in making social measurements. Millions of people voluntarily express opinions across any topic imaginable --- this data source is incredibly valuable for both research and business.
 
-For example, researchers have shown that the "mood" of communication on twitter reflects biological rhythms and can even used to predict the stock market. A student at UW used geocoded tweets to plot a map of locations where "thunder" was mentioned in the context of a storm system in Summer 2012.
+
+### Methodology
+
+
+
+### Results
+
+
 
 ***
 
