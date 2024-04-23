@@ -52,8 +52,3 @@ len_term_count = len(term_count)
 # Compute term frequency and print out results
 for word in range(0, len_term_count):
     print(term_count[word], " ", string_output_text.count(term_count[word]) / all_term_freq)
-
-
-
-
-        
