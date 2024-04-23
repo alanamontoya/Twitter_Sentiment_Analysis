@@ -166,24 +166,3 @@ for new_word in new_words:
 # Print each word and its sentiment score
 for word in range(0, len(new_words)):
     print(new_words[word] + ' ' + str(new_words_sent[word]))
-
-
-
-
-
-
-
-
-# Find sentiment of each new word
-#for word in new_words:
-#    track_sent = []
-    # get all of the tweets that contain the word
-#    for tweet in tweets:
-#        if word in tweet:
-#            track_sent.append(dict_tweet_sent[tweet])
-
-    # of those tweets, find only those that have non-zero sentiment scores
-
-    # find the average of all of the corresponding tweets with non-zero sentiment scores
-
-    # assign that average to be the sentiment of the word
