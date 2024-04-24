@@ -26,7 +26,7 @@ This project leverages Twitter's API to delve into and analyze the vast data pro
 
 ### Methodology
 
-###### Derive the sentiment of each tweet (`tweet_sentiment.py`)
+##### Derive the sentiment of each tweet (`tweet_sentiment.py`)
 
 - Data Loading and Preprocessing
    - Text Import: Tweets are imported from a JSON file (output_copy_3.txt). Each line of this file is parsed into Python's dictionary format using the json library.
