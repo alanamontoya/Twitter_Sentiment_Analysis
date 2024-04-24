@@ -26,18 +26,32 @@ This project leverages Twitter's API to delve into and analyze the vast data pro
 
 ### Methodology
 
-The methodology of this project includes several key steps:
+###### Derive the sentiment of each tweet (`tweet_sentiment.py`)
 
-- **Data Collection**: Utilize twitterstream.py to access Twitter's API and collect real-time tweet data.
-- **Data Preprocessing: Process tweets to extract relevant text and metadata using Python's json and re libraries.
-- **Sentiment Analysis**: Implement sentiment analysis on tweets using tweet_sentiment.py, which uses a predefined sentiment dictionary to assess tweet sentiment.
-- **Geospatial Analysis**: Analyze the relationship between user location and tweet sentiment in happiest_state.py.
-- **Term and Hashtag Frequency Analysis**: Calculate the frequency of terms and hashtags in the tweets using frequency.py and top_ten.py, identifying the most common elements.
-- **Data Analysis and Visualization**: Use pandas and numpy for further analysis and potentially visualizing data trends.
+- Data Loading and Preprocessing:
+   - Text Import: Tweets are imported from a JSON file (output_copy_3.txt). Each line of this file is parsed into Python's dictionary format using the json library.
+   - Text Cleaning: The tweet text undergoes several preprocessing steps:
+      - Removal of URLs, retweet artifacts, and mentions.
+      - Replacement of various punctuation and special characters with spaces to avoid concatenation of words.
+      - Conversion to lowercase to ensure case insensitivity when processing sentiment scores.
+
+- Sentiment Dictionary Setup:
+   - A dictionary of sentiment scores is constructed from the AFINN-111.txt file, where each line contains a word or phrase and its associated integer sentiment score. These scores are used to evaluate the sentiment of each tweet.
+- Sentiment Calculation:
+   - Extraction and Analysis: For each tweet, the text is split into individual words.
+   - Score Computation: The script iterates over each word in a tweet. For each word or consecutive combination of words (phrases), the script checks if it exists in the sentiment dictionary. If it does, its score is added to the tweet's total sentiment score.
+   - Edge Handling: If a word or phrase is not found in the dictionary, a sentiment score of 0 is assigned, ensuring that every word is accounted for without altering the overall sentiment calculation.
+- Output:
+   - The final sentiment score of each tweet is printed, providing a line-by-line sentiment output corresponding to each tweet in the input file.
 
 
 ### Results
 
+Derive the sentiment of each tweet (tweet_sentiment.py)
+Derive the sentiment of new terms (term_sentiment.py)
+Compute Term Frequency (frequency.py)
+Which State is happiest? (happiest_state.py)
+Top ten hash tags (top_ten.py)
 
 
 ***
