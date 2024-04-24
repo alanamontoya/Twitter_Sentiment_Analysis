@@ -47,13 +47,35 @@ This project leverages Twitter's API to delve into and analyze the vast data pro
 
 </details>
 
-### Results
 
-Derive the sentiment of each tweet (tweet_sentiment.py)
-Derive the sentiment of new terms (term_sentiment.py)
-Compute Term Frequency (frequency.py)
-Which State is happiest? (happiest_state.py)
-Top ten hash tags (top_ten.py)
+<details>
+
+<summary>Derive the sentiment of each tweet</summary>
+
+</details>
+
+
+<details>
+
+<summary>Compute Term Frequency</summary>
+
+</details>
+
+
+<details>
+
+<summary>Which State is happiest?</summary>
+
+</details>
+
+
+<details>
+
+<summary>Top ten hash tags</summary>
+
+</details>
+
+### Results
 
 
 ***
