@@ -29,10 +29,13 @@ This project leverages Twitter's API to delve into and analyze the vast data pro
 
 <summary>Derive the sentiment of each tweet</summary>
 
-### You can add a header
+#### Data Loading and Preprocessing
 
-You can add text within a collapsed section. 
-
+   - Text Import: Tweets are imported from a JSON file (output_copy_3.txt). Each line of this file is parsed into Python's dictionary format using the json library.
+   - Text Cleaning: The tweet text undergoes several preprocessing steps:
+     - Removal of URLs, retweet artifacts, and mentions.
+     - Replacement of various punctuation and special characters with spaces to avoid concatenation of words.
+     - Conversion to lowercase to ensure case insensitivity when processing sentiment scores.
 </details>
 
 
