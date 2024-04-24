@@ -28,14 +28,14 @@ This project leverages Twitter's API to delve into and analyze the vast data pro
 
 ###### Derive the sentiment of each tweet (`tweet_sentiment.py`)
 
-- Data Loading and Preprocessing:
+- Data Loading and Preprocessing
    - Text Import: Tweets are imported from a JSON file (output_copy_3.txt). Each line of this file is parsed into Python's dictionary format using the json library.
    - Text Cleaning: The tweet text undergoes several preprocessing steps:
       - Removal of URLs, retweet artifacts, and mentions.
       - Replacement of various punctuation and special characters with spaces to avoid concatenation of words.
       - Conversion to lowercase to ensure case insensitivity when processing sentiment scores.
 
-- Sentiment Dictionary Setup:
+- Sentiment Dictionary Setup
    - A dictionary of sentiment scores is constructed from the AFINN-111.txt file, where each line contains a word or phrase and its associated integer sentiment score. These scores are used to evaluate the sentiment of each tweet.
 - Sentiment Calculation:
    - Extraction and Analysis: For each tweet, the text is split into individual words.
