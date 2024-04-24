@@ -36,14 +36,14 @@ This project leverages Twitter's API to delve into and analyze the vast data pro
      - Removal of URLs, retweet artifacts, and mentions.
      - Replacement of various punctuation and special characters with spaces to avoid concatenation of words.
      - Conversion to lowercase to ensure case insensitivity when processing sentiment scores.
-   - Sentiment Dictionary Setup
-     - A dictionary of sentiment scores is constructed from the AFINN-111.txt file, where each line contains a word or phrase and its associated integer sentiment score. These scores are used to evaluate the sentiment of each tweet.
-   - Sentiment Calculation:
-     - Extraction and Analysis: For each tweet, the text is split into individual words.
-     - Score Computation: The script iterates over each word in a tweet. For each word or consecutive combination of words (phrases), the script checks if it exists in the sentiment dictionary. If it does, its score is added to the tweet's total sentiment score.
-     - Edge Handling: If a word or phrase is not found in the dictionary, a sentiment score of 0 is assigned, ensuring that every word is accounted for without altering the overall sentiment calculation.
-   - Output:
-     - The final sentiment score of each tweet is printed, providing a line-by-line sentiment output corresponding to each tweet in the input file.
+##### Sentiment Dictionary Setup
+   - A dictionary of sentiment scores is constructed from the AFINN-111.txt file, where each line contains a word or phrase and its associated integer sentiment score. These scores are used to evaluate the sentiment of each tweet.
+##### Sentiment Calculation:
+   - Extraction and Analysis: For each tweet, the text is split into individual words.
+   - Score Computation: The script iterates over each word in a tweet. For each word or consecutive combination of words (phrases), the script checks if it exists in the sentiment dictionary. If it does, its score is added to the tweet's total sentiment score.
+   - Edge Handling: If a word or phrase is not found in the dictionary, a sentiment score of 0 is assigned, ensuring that every word is accounted for without altering the overall sentiment calculation.
+##### Output:
+   - The final sentiment score of each tweet is printed, providing a line-by-line sentiment output corresponding to each tweet in the input file.
 
 </details>
 
