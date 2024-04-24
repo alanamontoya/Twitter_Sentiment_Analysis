@@ -25,6 +25,16 @@ This project leverages Twitter's API to delve into and analyze the vast data pro
 - <ins>Development Environment</ins>: Jupyter Notebook
 
 ### Methodology
+<details>
+
+<summary>Derive the sentiment of each tweet</summary>
+
+### You can add a header
+
+You can add text within a collapsed section. 
+
+</details>
+
 
 ###### Derive the sentiment of each tweet (`tweet_sentiment.py`)
    
