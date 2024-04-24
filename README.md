@@ -4,10 +4,9 @@
 
 Twitter has historically served as a vital tool for making social measurements. Millions of individuals openly share their opinions on a wide array of subjects, making Twitter a rich resource for both research and business applications. For example, researchers have shown that the "mood" of communication on twitter [reflects biological rhythms](https://www.nytimes.com/2011/09/30/science/30twitter.html) and can even used to [predict the stock market](https://arxiv.org/pdf/1010.3003&embedded=true).
 
-This project leverages Twitter's API to delve into and analyze the vast data produced by users. We aim to perform sentiment analysis, examine the connections between tweet locations and moods, and identify prevailing trends in tweet content. The overarching goal is to harness Python and the Twitter API to extract meaningful insights from social media data, enhancing our understanding of digital communication patterns.
+This project leverages Twitter's API to delve into and analyze the vast data produced by users. The aim is to perform sentiment analysis, examine the connections between tweet locations and moods, and identify prevailing trends in tweet content. The overarching goal is to harness Python and the Twitter API to extract meaningful insights from social media data, enhancing understanding of digital communication patterns.
 
 ### Objectives
-
 
 *	Access Twitter’s Application Programming Interface (API) using python to download tweets (note: this was done when Twitter's API was still available).
 *	Estimate the public's perception (the sentiment) toward specific terms or phrases found in tweets.
@@ -16,10 +15,25 @@ This project leverages Twitter's API to delve into and analyze the vast data pro
 
 ### Technologies Used
 
-
+- <ins>Programming Language</ins>: Python
+- <ins>Libraries and Frameworks</ins>
+   - _pandas_ for data manipulation and analysis.
+   - _numpy_ for numerical operations.
+   - _json_ for parsing JSON formatted data from Twitter
+   - _re_ for regular expression operations, facilitating text processing.
+   - _sys_ for accessing command-line arguments and interacting with the Python runtime environment.
+- <ins>Development Environment</ins>: Jupyter Notebook
 
 ### Methodology
 
+The methodology of this project includes several key steps:
+
+- **Data Collection**: Utilize twitterstream.py to access Twitter's API and collect real-time tweet data.
+- **Data Preprocessing: Process tweets to extract relevant text and metadata using Python's json and re libraries.
+- **Sentiment Analysis**: Implement sentiment analysis on tweets using tweet_sentiment.py, which uses a predefined sentiment dictionary to assess tweet sentiment.
+- **Geospatial Analysis**: Analyze the relationship between user location and tweet sentiment in happiest_state.py.
+- **Term and Hashtag Frequency Analysis**: Calculate the frequency of terms and hashtags in the tweets using frequency.py and top_ten.py, identifying the most common elements.
+- **Data Analysis and Visualization**: Use pandas and numpy for further analysis and potentially visualizing data trends.
 
 
 ### Results
