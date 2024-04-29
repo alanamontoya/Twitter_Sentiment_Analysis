@@ -24,6 +24,7 @@ This project leverages Twitter's API to delve into and analyze the vast data pro
    - _sys_ for accessing command-line arguments and interacting with the Python runtime environment.
 - <ins>Development Environment</ins>: Jupyter Notebook
 
+<!--
 ### Methodology
 <details>
 
@@ -77,6 +78,7 @@ This project leverages Twitter's API to delve into and analyze the vast data pro
 
 ### Results
 
+-->
 
 ***
 
